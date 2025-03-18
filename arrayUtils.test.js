@@ -1,12 +1,11 @@
-const fc = require('fast-check');
-const {
+import * as fc from 'fast-check';
+import {
   removeDuplicates,
   sortNumbers,
   sumPositiveNumbers,
   groupByParity,
   findCommonElements,
-} = require('./arrayUtils.js');
-
+} from './arrayUtils.js';
 
 describe('removeDuplicates', () => {
   it('should remove duplicates from an array', () => {
